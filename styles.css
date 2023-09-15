@@ -1,0 +1,1143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #ebebeb;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+header h1 img {
+    width: 50%;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+#searchBox {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 950px;
+}
+
+#searchBoxContainer {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.card {
+    position: relative;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.card button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card button:hover {
+    transform: scale(1.02);
+
+}
+
+.card button:active {
+    transform: scale(0.95);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.card.acero {
+    background: linear-gradient(45deg, #A8A8C0 50%, #A8A8C0 50%);
+}
+
+.card.acero-agua {
+    background: linear-gradient(45deg, #A8A8C0 50%, #3899F8 50%);
+}
+
+.card.acero-bicho {
+    background: linear-gradient(45deg, #A8A8C0 50%, #A8B820 50%);
+}
+
+.card.acero-dragón {
+    background: linear-gradient(45deg, #A8A8C0 50%, #7860E0 50%);
+}
+
+.card.acero-eléctrico {
+    background: linear-gradient(45deg, #A8A8C0 50%, #F8D030 50%);
+}
+
+.card.acero-fantasma {
+    background: linear-gradient(45deg, #A8A8C0 50%, #6060B0 50%);
+}
+
+.card.acero-fuego {
+    background: linear-gradient(45deg, #A8A8C0 50%, #F05030 50%);
+}
+
+.card.acero-hada {
+    background: linear-gradient(45deg, #A8A8C0 50%, #E79FE7 50%);
+}
+
+.card.acero-hielo {
+    background: linear-gradient(45deg, #A8A8C0 50%, #58C8E0 50%);
+}
+
+.card.acero-lucha {
+    background: linear-gradient(45deg, #A8A8C0 50%, #A05038 50%);
+}
+
+.card.acero-normal {
+    background: linear-gradient(45deg, #A8A8C0 50%, #A8A090 50%);
+}
+
+.card.acero-planta {
+    background: linear-gradient(45deg, #A8A8C0 50%, #78C850 50%);
+}
+
+.card.acero-psíquico {
+    background: linear-gradient(45deg, #A8A8C0 50%, #F870A0 50%);
+}
+
+.card.acero-roca {
+    background: linear-gradient(45deg, #A8A8C0 50%, #B8A058 50%);
+}
+
+.card.acero-siniestro {
+    background: linear-gradient(45deg, #A8A8C0 50%, #7A5848 50%);
+}
+
+.card.acero-tierra {
+    background: linear-gradient(45deg, #A8A8C0 50%, #E9D6A4 50%);
+}
+
+.card.acero-veneno {
+    background: linear-gradient(45deg, #A8A8C0 50%, #B058A0 50%);
+}
+
+.card.acero-volador {
+    background: linear-gradient(45deg, #A8A8C0 50%, #98A8F0 50%);
+}
+
+.card.agua{
+    background: linear-gradient(45deg, #3899F8 50%, #3899F8 50%);
+}
+.card.agua-acero{
+    background: linear-gradient(45deg, #3899F8 50%, #A8A8C0 50%);
+}
+.card.agua-bicho{
+    background: linear-gradient(45deg, #3899F8 50%, #A8B820 50%);
+}
+.card.agua-dragón{
+    background: linear-gradient(45deg, #3899F8 50%, #7860E0 50%);
+}
+.card.agua-eléctrico{
+    background: linear-gradient(45deg, #3899F8 50%, #F8D030 50%);
+}
+.card.agua-fantasma{
+    background: linear-gradient(45deg, #3899F8 50%, #6060B0 50%);
+}
+.card.agua-fuego{
+    background: linear-gradient(45deg, #3899F8 50%, #F05030 50%);
+}
+.card.agua-hada{
+    background: linear-gradient(45deg, #3899F8 50%, #E79FE7 50%);
+}
+.card.agua-hielo{
+    background: linear-gradient(45deg, #3899F8 50%, #58C8E0 50%);
+}
+.card.agua-lucha{
+    background: linear-gradient(45deg, #3899F8 50%, #A05038 50%);
+}
+.card.agua-normal{
+    background: linear-gradient(45deg, #3899F8 50%, #A8A090 50%);
+}
+.card.agua-planta{
+    background: linear-gradient(45deg, #3899F8 50%, #78C850 50%);
+}
+.card.agua-psíquico{
+    background: linear-gradient(45deg, #3899F8 50%, #F870A0 50%);
+}
+.card.agua-roca{
+    background: linear-gradient(45deg, #3899F8 50%, #B8A058 50%);
+}
+.card.agua-siniestro{
+    background: linear-gradient(45deg, #3899F8 50%, #7A5848 50%);
+}
+.card.agua-tierra{
+    background: linear-gradient(45deg, #3899F8 50%, #E9D6A4 50%);
+}
+.card.agua-veneno{
+    background: linear-gradient(45deg, #3899F8 50%, #B058A0 50%);
+}
+.card.agua-volador{
+    background: linear-gradient(45deg, #3899F8 50%, #98A8F0 50%);
+}
+
+.card.bicho{
+    background: linear-gradient(45deg, #A8B820 50%, #A8B820 50%);
+}
+.card.bicho-acero{
+    background: linear-gradient(45deg, #A8B820 50%, #A8A8C0 50%);
+}
+.card.bicho-agua{
+    background: linear-gradient(45deg, #A8B820 50%, #3899F8 50%);
+}
+.card.bicho-dragón{
+    background: linear-gradient(45deg, #A8B820 50%, #7860E0 50%);
+}
+.card.bicho-eléctrico{
+    background: linear-gradient(45deg, #A8B820 50%, #F8D030 50%);
+}
+.card.bicho-fantasma{
+    background: linear-gradient(45deg, #A8B820 50%, #6060B0 50%);
+}
+.card.bicho-fuego{
+    background: linear-gradient(45deg, #A8B820 50%, #F05030 50%);
+}
+.card.bicho-hada{
+    background: linear-gradient(45deg, #A8B820 50%, #E79FE7 50%);
+}
+.card.bicho-hielo{
+    background: linear-gradient(45deg, #A8B820 50%, #58C8E0 50%);
+}
+.card.bicho-lucha{
+    background: linear-gradient(45deg, #A8B820 50%, #A05038 50%);
+}
+.card.bicho-normal{
+    background: linear-gradient(45deg, #A8B820 50%, #A8A090 50%);
+}
+.card.bicho-planta{
+    background: linear-gradient(45deg, #A8B820 50%, #78C850 50%);
+}
+.card.bicho-psíquico{
+    background: linear-gradient(45deg, #A8B820 50%, #F870A0 50%);
+}
+.card.bicho-roca{
+    background: linear-gradient(45deg, #A8B820 50%, #B8A058 50%);
+}
+.card.bicho-siniestro{
+    background: linear-gradient(45deg, #A8B820 50%, #7A5848 50%);
+}
+.card.bicho-tierra{
+    background: linear-gradient(45deg, #A8B820 50%, #E9D6A4 50%);
+}
+.card.bicho-veneno{
+    background: linear-gradient(45deg, #A8B820 50%, #B058A0 50%);
+}
+.card.bicho-volador{
+    background: linear-gradient(45deg, #A8B820 50%, #98A8F0 50%);
+}
+
+.card.dragón{
+    background: linear-gradient(45deg, #7860E0 50%, #7860E0 50%);
+}
+.card.dragón-acero{
+    background: linear-gradient(45deg, #7860E0 50%, #A8A8C0 50%);
+}
+.card.dragón-agua{
+    background: linear-gradient(45deg, #7860E0 50%, #3899F8 50%);
+}
+.card.dragón-bicho{
+    background: linear-gradient(45deg, #7860E0 50%, #A8B820 50%);
+}
+.card.dragón-eléctrico{
+    background: linear-gradient(45deg, #7860E0 50%, #F8D030 50%);
+}
+.card.dragón-fantasma{
+    background: linear-gradient(45deg, #7860E0 50%, #6060B0 50%);
+}
+.card.dragón-fuego{
+    background: linear-gradient(45deg, #7860E0 50%, #F05030 50%);
+}
+.card.dragón-hada{
+    background: linear-gradient(45deg, #7860E0 50%, #E79FE7 50%);
+}
+.card.dragón-hielo{
+    background: linear-gradient(45deg, #7860E0 50%, #58C8E0 50%);
+}
+.card.dragón-lucha{
+    background: linear-gradient(45deg, #7860E0 50%, #A05038 50%);
+}
+.card.dragón-normal{
+    background: linear-gradient(45deg, #7860E0 50%, #A8A090 50%);
+}
+.card.dragón-planta{
+    background: linear-gradient(45deg, #7860E0 50%, #78C850 50%);
+}
+.card.dragón-psíquico{
+    background: linear-gradient(45deg, #7860E0 50%, #F870A0 50%);
+}
+.card.dragón-roca{
+    background: linear-gradient(45deg, #7860E0 50%, #B8A058 50%);
+}
+.card.dragón-siniestro{
+    background: linear-gradient(45deg, #7860E0 50%, #7A5848 50%);
+}
+.card.dragón-tierra{
+    background: linear-gradient(45deg, #7860E0 50%, #E9D6A4 50%);
+}
+.card.dragón-veneno{
+    background: linear-gradient(45deg, #7860E0 50%, #B058A0 50%);
+}
+.card.dragón-volador{
+    background: linear-gradient(45deg, #7860E0 50%, #98A8F0 50%);
+}
+
+.card.eléctrico{
+    background: linear-gradient(45deg, #F8D030 50%, #F8D030 50%);
+}
+.card.eléctrico-acero{
+    background: linear-gradient(45deg, #F8D030 50%, #A8A8C0 50%);
+}
+.card.eléctrico-agua{
+    background: linear-gradient(45deg, #F8D030 50%, #3899F8 50%);
+}
+.card.eléctrico-bicho{
+    background: linear-gradient(45deg, #F8D030 50%, #A8B820 50%);
+}
+.card.eléctrico-dragón{
+    background: linear-gradient(45deg, #F8D030 50%, #7860E0 50%);
+}
+.card.eléctrico-fantasma{
+    background: linear-gradient(45deg, #F8D030 50%, #6060B0 50%);
+}
+.card.eléctrico-fuego{
+    background: linear-gradient(45deg, #F8D030 50%, #F05030 50%);
+}
+.card.eléctrico-hada{
+    background: linear-gradient(45deg, #F8D030 50%, #E79FE7 50%);
+}
+.card.eléctrico-hielo{
+    background: linear-gradient(45deg, #F8D030 50%, #58C8E0 50%);
+}
+.card.eléctrico-lucha{
+    background: linear-gradient(45deg, #F8D030 50%, #A05038 50%);
+}
+.card.eléctrico-normal{
+    background: linear-gradient(45deg, #F8D030 50%, #A8A090 50%);
+}
+.card.eléctrico-planta{
+    background: linear-gradient(45deg, #F8D030 50%, orange 50%);
+}
+.card.eléctrico-psíquico{
+    background: linear-gradient(45deg, #F8D030 50%, #F870A0 50%);
+}
+.card.eléctrico-roca{
+    background: linear-gradient(45deg, #F8D030 50%, #B8A058 50%);
+}
+.card.eléctrico-siniestro{
+    background: linear-gradient(45deg, #F8D030 50%, #7A5848 50%);
+}
+.card.eléctrico-tierra{
+    background: linear-gradient(45deg, #F8D030 50%, #E9D6A4 50%);
+}
+.card.eléctrico-veneno{
+    background: linear-gradient(45deg, #F8D030 50%, #B058A0 50%);
+}
+.card.eléctrico-volador{
+    background: linear-gradient(45deg, #F8D030 50%, #98A8F0 50%);
+}
+
+.card.fantasma{
+    background: linear-gradient(45deg, #6060B0 50%, #6060B0 50%);
+}
+.card.fantasma-acero{
+    background: linear-gradient(45deg, #6060B0 50%, #A8A8C0 50%);
+}
+.card.fantasma-agua{
+    background: linear-gradient(45deg, #6060B0 50%, #3899F8 50%);
+}
+.card.fantasma-bicho{
+    background: linear-gradient(45deg, #6060B0 50%, #A8B820 50%);
+}
+.card.fantasma-dragón{
+    background: linear-gradient(45deg, #6060B0 50%, #7860E0 50%);
+}
+.card.fantasma-eléctrico{
+    background: linear-gradient(45deg, #6060B0 50%, #F8D030 50%);
+}
+.card.fantasma-fuego{
+    background: linear-gradient(45deg, #6060B0 50%, #F05030 50%);
+}
+.card.fantasma-hada{
+    background: linear-gradient(45deg, #6060B0 50%, #E79FE7 50%);
+}
+.card.fantasma-hielo{
+    background: linear-gradient(45deg, #6060B0 50%, #58C8E0 50%);
+}
+.card.fantasma-lucha{
+    background: linear-gradient(45deg, #6060B0 50%, #A05038 50%);
+}
+.card.fantasma-normal{
+    background: linear-gradient(45deg, #6060B0 50%, #A8A090 50%);
+}
+.card.fantasma-planta{
+    background: linear-gradient(45deg, #6060B0 50%, #78C850 50%);
+}
+.card.fantasma-psíquico{
+    background: linear-gradient(45deg, #6060B0 50%, #F870A0 50%);
+}
+.card.fantasma-roca{
+    background: linear-gradient(45deg, #6060B0 50%, #B8A058 50%);
+}
+.card.fantasma-siniestro{
+    background: linear-gradient(45deg, #6060B0 50%, #7A5848 50%);
+}
+.card.fantasma-tierra{
+    background: linear-gradient(45deg, #6060B0 50%, #E9D6A4 50%);
+}
+.card.fantasma-veneno{
+    background: linear-gradient(45deg, #6060B0 50%, #B058A0 50%);
+}
+.card.fantasma-volador{
+    background: linear-gradient(45deg, #6060B0 50%, #98A8F0 50%);
+}
+
+.card.fuego{
+    background: linear-gradient(45deg, #F05030 50%, #F05030 50%);
+}
+.card.fuego-acero{
+    background: linear-gradient(45deg, #F05030 50%, #A8A8C0 50%);
+}
+.card.fuego-agua{
+    background: linear-gradient(45deg, #F05030 50%, #3899F8 50%);
+}
+.card.fuego-bicho{
+    background: linear-gradient(45deg, #F05030 50%, #A8B820 50%);
+}
+.card.fuego-dragón{
+    background: linear-gradient(45deg, #F05030 50%, #7860E0 50%);
+}
+.card.fuego-eléctrico{
+    background: linear-gradient(45deg, #F05030 50%, #F8D030 50%);
+}
+.card.fuego-fantasma{
+    background: linear-gradient(45deg, #F05030 50%, #6060B0 50%);
+}
+.card.fuego-hada{
+    background: linear-gradient(45deg, #F05030 50%, #E79FE7 50%);
+}
+.card.fuego-hielo{
+    background: linear-gradient(45deg, #F05030 50%, #58C8E0 50%);
+}
+.card.fuego-lucha{
+    background: linear-gradient(45deg, #F05030 50%, #A05038 50%);
+}
+.card.fuego-normal{
+    background: linear-gradient(45deg, #F05030 50%, #A8A090 50%);
+}
+.card.fuego-planta{
+    background: linear-gradient(45deg, #F05030 50%, #78C850 50%);
+}
+.card.fuego-psíquico{
+    background: linear-gradient(45deg, #F05030 50%, #F870A0 50%);
+}
+.card.fuego-roca{
+    background: linear-gradient(45deg, #F05030 50%, #B8A058 50%);
+}
+.card.fuego-siniestro{
+    background: linear-gradient(45deg, #F05030 50%, #7A5848 50%);
+}
+.card.fuego-tierra{
+    background: linear-gradient(45deg, #F05030 50%, #E9D6A4 50%);
+}
+.card.fuego-veneno{
+    background: linear-gradient(45deg, #F05030 50%, #B058A0 50%);
+}
+.card.fuego-volador{
+    background: linear-gradient(45deg, #F05030 50%, #98A8F0 50%);
+}
+
+.card.hada{
+    background: linear-gradient(45deg, #E79FE7 50%, #E79FE7 50%);
+}
+.card.hada-acero{
+    background: linear-gradient(45deg, #E79FE7 50%, #A8A8C0 50%);
+}
+.card.hada-agua{
+    background: linear-gradient(45deg, #E79FE7 50%, #3899F8 50%);
+}
+.card.hada-bicho{
+    background: linear-gradient(45deg, #E79FE7 50%, #A8B820 50%);
+}
+.card.hada-dragón{
+    background: linear-gradient(45deg, #E79FE7 50%, #7860E0 50%);
+}
+.card.hada-eléctrico{
+    background: linear-gradient(45deg, #E79FE7 50%, #F8D030 50%);
+}
+.card.hada-fantasma{
+    background: linear-gradient(45deg, #E79FE7 50%, #6060B0 50%);
+}
+.card.hada-fuego{
+    background: linear-gradient(45deg, #E79FE7 50%, #F05030 50%);
+}
+.card.hada-hielo{
+    background: linear-gradient(45deg, #E79FE7 50%, #58C8E0 50%);
+}
+.card.hada-lucha{
+    background: linear-gradient(45deg, #E79FE7 50%, #A05038 50%);
+}
+.card.hada-normal{
+    background: linear-gradient(45deg, #E79FE7 50%, #A8A090 50%);
+}
+.card.hada-planta{
+    background: linear-gradient(45deg, #E79FE7 50%, #78C850 50%);
+}
+.card.hada-psíquico{
+    background: linear-gradient(45deg, #E79FE7 50%, #F870A0 50%);
+}
+.card.hada-roca{
+    background: linear-gradient(45deg, #E79FE7 50%, #B8A058 50%);
+}
+.card.hada-siniestro{
+    background: linear-gradient(45deg, #E79FE7 50%, #7A5848 50%);
+}
+.card.hada-tierra{
+    background: linear-gradient(45deg, #E79FE7 50%, #E9D6A4 50%);
+}
+.card.hada-veneno{
+    background: linear-gradient(45deg, #E79FE7 50%, #B058A0 50%);
+}
+.card.hada-volador{
+    background: linear-gradient(45deg, #E79FE7 50%, #98A8F0 50%);
+}
+
+.card.hielo{
+    background: linear-gradient(45deg, #58C8E0 50%, #58C8E0 50%);
+}
+.card.hielo-acero{
+    background: linear-gradient(45deg, #58C8E0 50%, #A8A8C0 50%);
+}
+.card.hielo-agua{
+    background: linear-gradient(45deg, #58C8E0 50%, #3899F8 50%);
+}
+.card.hielo-bicho{
+    background: linear-gradient(45deg, #58C8E0 50%, #A8B820 50%);
+}
+.card.hielo-dragón{
+    background: linear-gradient(45deg, #58C8E0 50%, #7860E0 50%);
+}
+.card.hielo-eléctrico{
+    background: linear-gradient(45deg, #58C8E0 50%, #F8D030 50%);
+}
+.card.hielo-fantasma{
+    background: linear-gradient(45deg, #58C8E0 50%, #6060B0 50%);
+}
+.card.hielo-fuego{
+    background: linear-gradient(45deg, #58C8E0 50%, #F05030 50%);
+}
+.card.hielo-hada{
+    background: linear-gradient(45deg, #58C8E0 50%, #E79FE7 50%);
+}
+.card.hielo-lucha{
+    background: linear-gradient(45deg, #58C8E0 50%, #A05038 50%);
+}
+.card.hielo-normal{
+    background: linear-gradient(45deg, #58C8E0 50%, #A8A090 50%);
+}
+.card.hielo-planta{
+    background: linear-gradient(45deg, #58C8E0 50%, #78C850 50%);
+}
+.card.hielo-psíquico{
+    background: linear-gradient(45deg, #58C8E0 50%, #F870A0 50%);
+}
+.card.hielo-roca{
+    background: linear-gradient(45deg, #58C8E0 50%, #B8A058 50%);
+}
+.card.hielo-siniestro{
+    background: linear-gradient(45deg, #58C8E0 50%, #7A5848 50%);
+}
+.card.hielo-tierra{
+    background: linear-gradient(45deg, #58C8E0 50%, #E9D6A4 50%);
+}
+.card.hielo-veneno{
+    background: linear-gradient(45deg, #58C8E0 50%, #B058A0 50%);
+}
+.card.hielo-volador{
+    background: linear-gradient(45deg, #58C8E0 50%, #98A8F0 50%);
+}
+
+.card.lucha{
+    background: linear-gradient(45deg, #A05038 50%, #A05038 50%);
+}
+.card.lucha-acero{
+    background: linear-gradient(45deg, #A05038 50%, #A8A8C0 50%);
+}
+.card.lucha-agua{
+    background: linear-gradient(45deg, #A05038 50%, #3899F8 50%);
+}
+.card.lucha-bicho{
+    background: linear-gradient(45deg, #A05038 50%, #A8B820 50%);
+}
+.card.lucha-dragón{
+    background: linear-gradient(45deg, #A05038 50%, #7860E0 50%);
+}
+.card.lucha-eléctrico{
+    background: linear-gradient(45deg, #A05038 50%, #F8D030 50%);
+}
+.card.lucha-fantasma{
+    background: linear-gradient(45deg, #A05038 50%, #6060B0 50%);
+}
+.card.lucha-fuego{
+    background: linear-gradient(45deg, #A05038 50%, #F05030 50%);
+}
+.card.lucha-hada{
+    background: linear-gradient(45deg, #A05038 50%, #E79FE7 50%);
+}
+.card.lucha-hielo{
+    background: linear-gradient(45deg, #A05038 50%, #58C8E0 50%);
+}
+.card.lucha-normal{
+    background: linear-gradient(45deg, #A05038 50%, #A8A090 50%);
+}
+.card.lucha-planta{
+    background: linear-gradient(45deg, #A05038 50%, #78C850 50%);
+}
+.card.lucha-psíquico{
+    background: linear-gradient(45deg, #A05038 50%, #F870A0 50%);
+}
+.card.lucha-roca{
+    background: linear-gradient(45deg, #A05038 50%, #B8A058 50%);
+}
+.card.lucha-siniestro{
+    background: linear-gradient(45deg, #A05038 50%, #7A5848 50%);
+}
+.card.lucha-tierra{
+    background: linear-gradient(45deg, #A05038 50%, #E9D6A4 50%);
+}
+.card.lucha-veneno{
+    background: linear-gradient(45deg, #A05038 50%, #B058A0 50%);
+}
+.card.lucha-volador{
+    background: linear-gradient(45deg, #A05038 50%, #98A8F0 50%);
+}
+
+.card.normal{
+    background: linear-gradient(45deg, #A8A090 50%, #A8A090 50%);
+}
+.card.normal-acero{
+    background: linear-gradient(45deg, #A8A090 50%, #A8A8C0 50%);
+}
+.card.normal-agua{
+    background: linear-gradient(45deg, #A8A090 50%, #3899F8 50%);
+}
+.card.normal-bicho{
+    background: linear-gradient(45deg, #A8A090 50%, #A8B820 50%);
+}
+.card.normal-dragón{
+    background: linear-gradient(45deg, #A8A090 50%, #7860E0 50%);
+}
+.card.normal-eléctrico{
+    background: linear-gradient(45deg, #A8A090 50%, #F8D030 50%);
+}
+.card.normal-fantasma{
+    background: linear-gradient(45deg, #A8A090 50%, #6060B0 50%);
+}
+.card.normal-fuego{
+    background: linear-gradient(45deg, #A8A090 50%, #F05030 50%);
+}
+.card.normal-hada{
+    background: linear-gradient(45deg, #A8A090 50%, #E79FE7 50%);
+}
+.card.normal-hielo{
+    background: linear-gradient(45deg, #A8A090 50%, #58C8E0 50%);
+}
+.card.normal-lucha{
+    background: linear-gradient(45deg, #A8A090 50%, #A05038 50%);
+}
+.card.normal-planta{
+    background: linear-gradient(45deg, #A8A090 50%, #78C850 50%);
+}
+.card.normal-psíquico{
+    background: linear-gradient(45deg, #A8A090 50%, #F870A0 50%);
+}
+.card.normal-roca{
+    background: linear-gradient(45deg, #A8A090 50%, #B8A058 50%);
+}
+.card.normal-siniestro{
+    background: linear-gradient(45deg, #A8A090 50%, #7A5848 50%);
+}
+.card.normal-tierra{
+    background: linear-gradient(45deg, #A8A090 50%, #E9D6A4 50%);
+}
+.card.normal-veneno{
+    background: linear-gradient(45deg, #A8A090 50%, #B058A0 50%);
+}
+.card.normal-volador{
+    background: linear-gradient(45deg, #A8A090 50%, #98A8F0 50%);
+}
+
+.card.planta{
+    background: linear-gradient(45deg, #78C850	 50%, #78C850 50%);
+}
+.card.planta-acero{
+    background: linear-gradient(45deg, #78C850	 50%, #A8A8C0 50%);
+}
+.card.planta-agua{
+    background: linear-gradient(45deg, #78C850	 50%, #3899F8 50%);
+}
+.card.planta-bicho{
+    background: linear-gradient(45deg, #78C850 50%, #A8B820 50%);
+}
+.card.planta-dragón{
+    background: linear-gradient(45deg, #78C850 50%, #7860E0 50%);
+}
+.card.planta-eléctrico{
+    background: linear-gradient(45deg, #78C850 50%, #F8D030 50%);
+}
+.card.planta-fantasma{
+    background: linear-gradient(45deg, #78C850 50%, #6060B0 50%);
+}
+.card.planta-fuego{
+    background: linear-gradient(45deg, #78C850 50%, #F05030 50%);
+}
+.card.planta-hada{
+    background: linear-gradient(45deg, #78C850 50%, #E79FE7 50%);
+}
+.card.planta-hielo{
+    background: linear-gradient(45deg, #78C850 50%, #58C8E0 50%);
+}
+.card.planta-lucha{
+    background: linear-gradient(45deg, #78C850 50%, #A05038 50%);
+}
+.card.planta-normal{
+    background: linear-gradient(45deg, #78C850 50%, #A8A090 50%);
+}
+.card.planta-psíquico{
+    background: linear-gradient(45deg, #78C850 50%, #F870A0 50%);
+}
+.card.planta-roca{
+    background: linear-gradient(45deg, #78C850 50%, #B8A058 50%);
+}
+.card.planta-siniestro{
+    background: linear-gradient(45deg, #78C850 50%, #7A5848 50%);
+}
+.card.planta-tierra{
+    background: linear-gradient(45deg, #78C850 50%, #E9D6A4 50%);
+}
+.card.planta-veneno{
+    background: linear-gradient(45deg, #78C850 50%, #B058A0 50%);
+}
+.card.planta-volador{
+    background: linear-gradient(45deg, #78C850 50%, #98A8F0 50%);
+}
+
+.card.psíquico{
+    background: linear-gradient(45deg, #F870A0 50%, #F870A0 50%);
+}
+.card.psíquico-acero{
+    background: linear-gradient(45deg, #F870A0 50%, #A8A8C0 50%);
+}
+.card.psíquico-agua{
+    background: linear-gradient(45deg, #F870A0 50%, #3899F8 50%);
+}
+.card.psíquico-bicho{
+    background: linear-gradient(45deg, #F870A0 50%, #A8B820 50%);
+}
+.card.psíquico-dragón{
+    background: linear-gradient(45deg, #F870A0 50%, #7860E0 50%);
+}
+.card.psíquico-eléctrico{
+    background: linear-gradient(45deg, #F870A0 50%, #F8D030 50%);
+}
+.card.psíquico-fantasma{
+    background: linear-gradient(45deg, #F870A0 50%, #6060B0 50%);
+}
+.card.psíquico-fuego{
+    background: linear-gradient(45deg, #F870A0 50%, #F05030 50%);
+}
+.card.psíquico-hada{
+    background: linear-gradient(45deg, #F870A0 50%, #E79FE7 50%);
+}
+.card.psíquico-hielo{
+    background: linear-gradient(45deg, #F870A0 50%, #58C8E0 50%);
+}
+.card.psíquico-lucha{
+    background: linear-gradient(45deg, #F870A0 50%, #A05038 50%);
+}
+.card.psíquico-normal{
+    background: linear-gradient(45deg, #F870A0 50%, #A8A090 50%);
+}
+.card.psíquico-roca{
+    background: linear-gradient(45deg, #F870A0 50%, #B8A058 50%);
+}
+.card.psíquico-planta{
+    background: linear-gradient(45deg, #F870A0 50%, #78C850 50%);
+}
+.card.psíquico-siniestro{
+    background: linear-gradient(45deg, #F870A0 50%, #7A5848 50%);
+}
+.card.psíquico-tierra{
+    background: linear-gradient(45deg, #F870A0 50%, #E9D6A4 50%);
+}
+.card.psíquico-veneno{
+    background: linear-gradient(45deg, #F870A0 50%, #B058A0 50%);
+}
+.card.psíquico-volador{
+    background: linear-gradient(45deg, #F870A0 50%, #98A8F0 50%);
+}
+
+.card.roca{
+    background: linear-gradient(45deg, #B8A058 50%, #B8A058 50%);
+}
+.card.roca-acero{
+    background: linear-gradient(45deg, #B8A058 50%, #A8A8C0 50%);
+}
+.card.roca-agua{
+    background: linear-gradient(45deg, #B8A058 50%, #3899F8 50%);
+}
+.card.roca-bicho{
+    background: linear-gradient(45deg, #B8A058 50%, #A8B820 50%);
+}
+.card.roca-dragón{
+    background: linear-gradient(45deg, #B8A058 50%, #7860E0 50%);
+}
+.card.roca-eléctrico{
+    background: linear-gradient(45deg, #B8A058 50%, #F8D030 50%);
+}
+.card.roca-fantasma{
+    background: linear-gradient(45deg, #B8A058 50%, #6060B0 50%);
+}
+.card.roca-fuego{
+    background: linear-gradient(45deg, #B8A058 50%, #F05030 50%);
+}
+.card.roca-hada{
+    background: linear-gradient(45deg, #B8A058 50%, #E79FE7 50%);
+}
+.card.roca-hielo{
+    background: linear-gradient(45deg, #B8A058 50%, #58C8E0 50%);
+}
+.card.roca-lucha{
+    background: linear-gradient(45deg, #B8A058 50%, #A05038 50%);
+}
+.card.roca-normal{
+    background: linear-gradient(45deg, #B8A058 50%, #A8A090 50%);
+}
+.card.roca-planta{
+    background: linear-gradient(45deg, #B8A058 50%, #78C850 50%);
+}
+.card.roca-psíquico{
+    background: linear-gradient(45deg, #B8A058 50%, #F870A0 50%);
+}
+.card.roca-siniestro{
+    background: linear-gradient(45deg, #B8A058 50%, #7A5848 50%);
+}
+.card.roca-tierra{
+    background: linear-gradient(45deg, #B8A058 50%, #E9D6A4 50%);
+}
+.card.roca-veneno{
+    background: linear-gradient(45deg, #B8A058 50%, #B058A0	50%);
+}
+.card.roca-volador{
+    background: linear-gradient(45deg, #B8A058 50%, #98A8F0 50%);
+}
+
+.card.siniestro{
+    background: linear-gradient(45deg, #7A5848 50%, #7A5848 50%);
+}
+.card.siniestro-acero{
+    background: linear-gradient(45deg, #7A5848 50%, #A8A8C0 50%);
+}
+.card.siniestro-agua{
+    background: linear-gradient(45deg, #7A5848 50%, #3899F8 50%);
+}
+.card.siniestro-bicho{
+    background: linear-gradient(45deg, #7A5848 50%, #A8B820 50%);
+}
+.card.siniestro-dragón{
+    background: linear-gradient(45deg, #7A5848 50%, #7860E0 50%);
+}
+.card.siniestro-eléctrico{
+    background: linear-gradient(45deg, #7A5848 50%, #F8D030 50%);
+}
+.card.siniestro-fantasma{
+    background: linear-gradient(45deg, #7A5848 50%, #6060B0 50%);
+}
+.card.siniestro-fuego{
+    background: linear-gradient(45deg, #7A5848 50%, #F05030 50%);
+}
+.card.siniestro-hada{
+    background: linear-gradient(45deg, #7A5848 50%, #E79FE7 50%);
+}
+.card.siniestro-hielo{
+    background: linear-gradient(45deg, #7A5848 50%, #58C8E0 50%);
+}
+.card.siniestro-lucha{
+    background: linear-gradient(45deg, #7A5848 50%, #A05038 50%);
+}
+.card.siniestro-normal{
+    background: linear-gradient(45deg, #7A5848 50%, #A8A090 50%);
+}
+.card.siniestro-planta{
+    background: linear-gradient(45deg, #7A5848 50%, #78C850 50%);
+}
+.card.siniestro-psíquico{
+    background: linear-gradient(45deg, #7A5848 50%, #F870A0 50%);
+}
+.card.siniestro-roca{
+    background: linear-gradient(45deg, #7A5848 50%, #B8A058 50%);
+}
+.card.siniestro-tierra{
+    background: linear-gradient(45deg, #7A5848 50%, #E9D6A4 50%);
+}
+.card.siniestro-veneno{
+    background: linear-gradient(45deg, #7A5848 50%, #B058A0 50%);
+}
+.card.siniestro-volador{
+    background: linear-gradient(45deg, #7A5848 50%, #98A8F0 50%);
+}
+
+.card.tierra{
+    background: linear-gradient(45deg, #E9D6A4 50%, #E9D6A4 50%);
+}
+.card.tierra-acero{
+    background: linear-gradient(45deg, #E9D6A4 50%, #A8A8C0 50%);
+}
+.card.tierra-agua{
+    background: linear-gradient(45deg, #E9D6A4 50%, #3899F8 50%);
+}
+.card.tierra-bicho{
+    background: linear-gradient(45deg, #E9D6A4 50%, #A8B820 50%);
+}
+.card.tierra-dragón{
+    background: linear-gradient(45deg, #E9D6A4 50%, #7860E0 50%);
+}
+.card.tierra-eléctrico{
+    background: linear-gradient(45deg, #E9D6A4 50%, #F8D030 50%);
+}
+.card.tierra-fantasma{
+    background: linear-gradient(45deg, #E9D6A4 50%, #6060B0 50%);
+}
+.card.tierra-fuego{
+    background: linear-gradient(45deg, #E9D6A4 50%, #F05030 50%);
+}
+.card.tierra-hada{
+    background: linear-gradient(45deg, #E9D6A4 50%, #E79FE7 50%);
+}
+.card.tierra-hielo{
+    background: linear-gradient(45deg, #E9D6A4 50%, #58C8E0 50%);
+}
+.card.tierra-lucha{
+    background: linear-gradient(45deg, #E9D6A4 50%, #A05038 50%);
+}
+.card.tierra-normal{
+    background: linear-gradient(45deg, #E9D6A4 50%, #A8A090 50%);
+}
+.card.tierra-planta{
+    background: linear-gradient(45deg, #E9D6A4 50%, #78C850 50%);
+}
+.card.tierra-psíquico{
+    background: linear-gradient(45deg, #E9D6A4 50%, #F870A0 50%);
+}
+.card.tierra-roca{
+    background: linear-gradient(45deg, #E9D6A4 50%, #B8A058 50%);
+}
+.card.tierra-siniestro{
+    background: linear-gradient(45deg, #E9D6A4 50%, #7A5848 50%);
+}
+.card.tierra-veneno{
+    background: linear-gradient(45deg, #E9D6A4 50%, #B058A0 50%);
+}
+.card.tierra-volador{
+    background: linear-gradient(45deg, #E9D6A4 50%, #98A8F0 50%);
+}
+
+.card.veneno{
+    background: linear-gradient(45deg, #B058A0 50%, #B058A0 50%);
+}
+.card.veneno-acero{
+    background: linear-gradient(45deg, #B058A0 50%, #A8A8C0 50%);
+}
+.card.veneno-agua{
+    background: linear-gradient(45deg, #B058A0 50%, #3899F8 50%);
+}
+.card.veneno-bicho{
+    background: linear-gradient(45deg, #B058A0 50%, #A8B820 50%);
+}
+.card.veneno-dragón{
+    background: linear-gradient(45deg, #B058A0 50%, #7860E0 50%);
+}
+.card.veneno-eléctrico{
+    background: linear-gradient(45deg, #B058A0 50%, #F8D030 50%);
+}
+.card.veneno-fantasma{
+    background: linear-gradient(45deg, #B058A0 50%, #6060B0 50%);
+}
+.card.veneno-fuego{
+    background: linear-gradient(45deg, #B058A0 50%, #F05030 50%);
+}
+.card.veneno-hada{
+    background: linear-gradient(45deg, #B058A0 50%, #E79FE7 50%);
+}
+.card.veneno-hielo{
+    background: linear-gradient(45deg, #B058A0 50%, #58C8E0 50%);
+}
+.card.veneno-lucha{
+    background: linear-gradient(45deg, #B058A0 50%, #A05038 50%);
+}
+.card.veneno-normal{
+    background: linear-gradient(45deg, #B058A0 50%, #A8A090 50%);
+}
+.card.veneno-planta{
+    background: linear-gradient(45deg, #B058A0 50%, #78C850 50%);
+}
+.card.veneno-psíquico{
+    background: linear-gradient(45deg, #B058A0 50%, #F870A0 50%);
+}
+.card.veneno-roca{
+    background: linear-gradient(45deg, #B058A0 50%, #B8A058 50%);
+}
+.card.veneno-siniestro{
+    background: linear-gradient(45deg, #B058A0 50%, #7A5848 50%);
+}
+.card.veneno-tierra{
+    background: linear-gradient(45deg, #B058A0 50%, #E9D6A4 50%);
+}
+.card.veneno-volador{
+    background: linear-gradient(45deg, #B058A0 50%, #98A8F0 50%);
+}
+
+.card.volador{
+    background: linear-gradient(45deg, #98A8F0 50%, #98A8F0 50%);
+}
+.card.volador-acero{
+    background: linear-gradient(45deg, #98A8F0 50%, #A8A8C0 50%);
+}
+.card.volador-agua{
+    background: linear-gradient(45deg, #98A8F0 50%, #3899F8 50%);
+}
+.card.volador-bicho{
+    background: linear-gradient(45deg, #98A8F0 50%, #A8B820 50%);
+}
+.card.volador-dragón{
+    background: linear-gradient(45deg, #98A8F0 50%, #7860E0 50%);
+}
+.card.volador-eléctrico{
+    background: linear-gradient(45deg, #98A8F0 50%, #F8D030 50%);
+}
+.card.volador-fantasma{
+    background: linear-gradient(45deg, #98A8F0 50%, #6060B0 50%);
+}
+.card.volador-fuego{
+    background: linear-gradient(45deg, #98A8F0 50%, #F05030 50%);
+}
+.card.volador-hada{
+    background: linear-gradient(45deg, #98A8F0 50%, #E79FE7 50%);
+}
+.card.volador-hielo{
+    background: linear-gradient(45deg, #98A8F0 50%, #58C8E0 50%);
+}
+.card.volador-lucha{
+    background: linear-gradient(45deg, #98A8F0 50%, #A05038 50%);
+}
+.card.volador-normal{
+    background: linear-gradient(45deg, #98A8F0 50%, #A8A090 50%);
+}
+.card.volador-planta{
+    background: linear-gradient(45deg, #98A8F0 50%, #78C850 50%);
+}
+.card.volador-psíquico{
+    background: linear-gradient(45deg, #98A8F0 50%, #F870A0 50%);
+}
+.card.volador-roca{
+    background: linear-gradient(45deg, #98A8F0 50%, #B8A058 50%);
+}
+.card.volador-siniestro{
+    background: linear-gradient(45deg, #98A8F0 50%, #7A5848 50%);
+}
+.card.volador-tierra{
+    background: linear-gradient(45deg, #98A8F0 50%, #E9D6A4 50%);
+}
+.card.volador-veneno{
+    background: linear-gradient(45deg, #98A8F0 50%, #B058A0 50%);
+}
+
+
+.type-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.type-images-container img {
+    width: 100px;
+    height: 30px;
+    object-fit: scale-down;
+    margin: 0 0px;
+}
+
+footer {
+    background-color: #d30000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    margin-top: auto;
+}
+
+#typeFilter button.active {
+    scale: 90%;
+}
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.scroll-image {
+    width: 40px;
+    height: 40px;
+}
+
+.scroll-button:not(.show) {
+    display: none;
+}
+
+.active-button {
+    opacity: #555;
+    transform: scale(0.95);
+    scale: 90%;
+}

@@ -6107,7 +6107,7 @@ const pokemonData = [{
         number: '1018'
     },
     {
-        name: 'Hydrapple (1021)',
+        name: 'Hydrapple (1019)',
         type: ['Planta', 'Dragón'],
         image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1019.png',
         number: '1019'
@@ -6202,7 +6202,7 @@ const genFilters = [{
         name: "gen9Button",
         filterActive: false,
         min: "0906",
-        max: "1021"
+        max: "1025"
     },
     
 ];

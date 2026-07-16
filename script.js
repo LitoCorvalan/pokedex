@@ -6107,22 +6107,46 @@ const pokemonData = [{
         number: '1018'
     },
     {
-        name: 'Electrofuria (1019)',
-        type: ['Eléctrico', 'Dragón'],
+        name: 'Hydrapple (1021)',
+        type: ['Planta', 'Dragón'],
         image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1019.png',
         number: '1019'
-    },
-    {
-        name: 'Ferrotesta (1020)',
-        type: ['Acero', 'Psíquico'],
+    }, 
+{
+        name: 'Flamariete (1020)',
+        type: ['Fuego', 'Dragón'],
         image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1020.png',
         number: '1020'
     },
-    {
-        name: 'Terapagos (1021)',
-        type: ['Normal'],
+ {
+        name: 'Electrofuria (1021)',
+        type: ['Eléctrico', 'Dragón'],
         image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1021.png',
         number: '1021'
+    },
+{
+        name: 'Ferromole (1022)',
+        type: ['Roca', 'Psíquico'],
+        image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1022.png',
+        number: '1022'
+    },
+    {
+        name: 'Ferrotesta (1023)',
+        type: ['Acero', 'Psíquico'],
+        image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1023.png',
+        number: '1023'
+    },
+    {
+        name: 'Terapagos (1024)',
+        type: ['Normal'],
+        image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1024.png',
+        number: '1024'
+    },
+{
+        name: 'Pecharunt (1025)',
+        type: ['Veneno','Fantasma'],
+        image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/1025.png',
+        number: '1025'
     },
 ];
 
